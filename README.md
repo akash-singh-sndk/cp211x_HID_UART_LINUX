@@ -7,6 +7,17 @@ This repository provides tools and scripts for working with Silicon Labs CP2110 
 
 ---
 
+## Prerequisite: Download the SDK
+
+Before running the setup script, you must download the Silicon Labs USBXpress Host SDK for Linux:
+
+**[Download USBXpressHostSDK-Linux.tar](https://www.silabs.com/documents/public/software/USBXpressHostSDK-Linux.tar)**
+
+After downloading, place the `USBXpressHostSDK-Linux.tar` file in the parent directory of this repository so the setup script can find and extract it.
+
+---
+---
+
 ## 1. Bash Script: `setup_cp2110_linux.sh`
 
 ### Purpose
