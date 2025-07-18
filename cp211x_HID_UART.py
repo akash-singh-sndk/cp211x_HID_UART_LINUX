@@ -6,6 +6,12 @@
 # http://developer.silabs.com/legal/version/v10/License_Agreement_v10.htm
 # Original content and implementation provided by Silicon Laboratories.
 
+# ====================================== #
+# Author:    Akash Kumar Singh           #
+# Email:     akash.singh@sandisk.com     #
+# ====================================== #
+
+
 """
 Python wrapper for Silabs CP211x library (SLABHIDtoUART.dll).
 
