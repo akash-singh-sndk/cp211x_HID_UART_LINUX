@@ -509,7 +509,7 @@ def PowerOff(hu):
         print(
             f"  \033[33mGPIO Latch    :\033[0m \033[37m0x{latch:04X}\033[0m  [ {decode_gpio_latch(latch)} ]")
         gpio3_state = (latch & 0x8)
-        print(f"  \033[33mGPIO3 (Power) :\033[0m {'\033[32mON\033[0m' if gpio3_state else '\033[31mOFF\033[0m'}")
+        
         print(
             "\033[1;34m------------------------------------------------------------------\033[0m\n")
     except Exception as e:
@@ -540,7 +540,7 @@ def PowerOn(hu):
         print(
             f"  \033[33mGPIO Latch    :\033[0m \033[37m0x{latch:04X}\033[0m  [ {decode_gpio_latch(latch)} ]")
         gpio3_state = (latch & 0x8)
-        print(f"  \033[33mGPIO3 (Power) :\033[0m {'\033[32mON\033[0m' if gpio3_state else '\033[31mOFF\033[0m'}")
+        
         print(
             "\033[1;34m------------------------------------------------------------------\033[0m\n")
     except Exception as e:
@@ -570,7 +570,7 @@ def PowerCycle(hu):
         print(
             f"  \033[33mGPIO Latch    :\033[0m \033[37m0x{latch:04X}\033[0m  [ {decode_gpio_latch(latch)} ]")
         gpio3_state = (latch & 0x8)
-        print(f"  \033[33mGPIO3 (Power) :\033[0m {'\033[32mON\033[0m' if gpio3_state else '\033[31mOFF\033[0m'}")
+        
         print(
             "\033[1;34m-------------------------------------------------------------------\033[0m\n")
     except Exception as e:
@@ -589,7 +589,7 @@ def PowerCycle(hu):
         print(
             f"  \033[33mGPIO Latch    :\033[0m \033[37m0x{latch:04X}\033[0m  [ {decode_gpio_latch(latch)} ]")
         gpio3_state = (latch & 0x8)
-        print(f"  \033[33mGPIO3 (Power) :\033[0m {'\033[32mON\033[0m' if gpio3_state else '\033[31mOFF\033[0m'}")
+        
         print(
             "\033[1;34m-------------------------------------------------------------------\033[0m\n")
     except Exception as e:
