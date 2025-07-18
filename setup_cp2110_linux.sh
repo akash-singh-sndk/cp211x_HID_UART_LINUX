@@ -2,6 +2,12 @@
 # CP2110 Linux SDK Setup Script
 # This script sets up the USBXpress Host SDK for Linux
 
+# ====================================== #
+# Author:    Akash Kumar Singh           #
+# Email:     akash.singh@sandisk.com     #
+# ====================================== #
+
+
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
